@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="110" viewBox="0 0 199 110">
+  <g id="Group_1" data-name="Group 1" transform="translate(-115 -462)">
+    <text id="Lares" transform="translate(146 540)" fill="#009cbf" font-size="60" font-family="Pacifico-Regular, Pacifico"><tspan x="0" y="0">Lares</tspan></text>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="6" cy="6" r="6" transform="translate(115 514)" fill="#e78200"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="6" cy="6" r="6" transform="translate(302 514)" fill="#e78200"/>
+    <text id="Küche" transform="translate(184 567)" fill="#0c0d0d" font-size="25" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Küche</tspan></text>
+  </g>
+</svg>

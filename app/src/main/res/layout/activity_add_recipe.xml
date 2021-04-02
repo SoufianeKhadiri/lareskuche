@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+    <LinearLayout
+        android:id="@+id/scrollView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+    <EditText
+        android:id="@+id/RName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:hint="enter Recipe Name"
+        />
+    <EditText
+        android:id="@+id/RDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:hint="enter Recipe Description"
+        android:layout_below="@id/RName"
+
+        />
+    <EditText
+        android:id="@+id/RRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:hint="Remarks (optional)"
+        android:layout_below="@id/RDesc"
+
+        ></EditText>
+        <EditText
+            android:id="@+id/cheff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:hint="Chef "
+            android:layout_below="@id/RRemarks"
+
+            ></EditText>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/cheff"
+            android:autofillHints="Category"
+
+            >
+
+        </Spinner>
+
+
+    <RatingBar
+        android:id="@+id/RRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:layout_gravity="center"
+        android:layout_below="@id/spinner"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/RImgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="choose Image"
+        android:layout_below="@id/RRatingBar"
+
+        />
+
+        <ImageView
+            android:id="@+id/Img"
+
+            android:layout_width="312dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/RImgBtn"
+            android:layout_gravity="center"
+            >
+
+        </ImageView>
+    <Button
+        android:id="@+id/AddR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Add Recipe"
+       />
+        <Button
+            android:id="@+id/RecipesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="all Recipes"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

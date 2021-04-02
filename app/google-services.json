@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "329692290386",
+    "project_id": "lareskuche-265a5",
+    "storage_bucket": "lareskuche-265a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329692290386:android:449bd5b76e25211269ee8b",
+        "android_client_info": {
+          "package_name": "com.example.lareskitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329692290386-q66pgthbjhlfnpcb7unnp30e6ukes5b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsOgVkaRzkxPEEqYDl3MKjW6mbAE_p0cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329692290386-q66pgthbjhlfnpcb7unnp30e6ukes5b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

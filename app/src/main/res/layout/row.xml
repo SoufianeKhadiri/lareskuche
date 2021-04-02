@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp">
+
+
+
+
+
+             <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/rImg"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            app:shapeAppearanceOverlay="@style/rounded"
+            />
+
+            >
+
+
+        <TextView
+            android:id="@+id/Title"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/rImg"
+            android:layout_toRightOf="@id/rImg"
+            android:fontFamily="@font/lato"
+
+            android:text="Title"
+            android:textColor="@color/blackColor"
+            android:textSize="22sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Title"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="22dp"
+            android:layout_toEndOf="@id/rImg"
+            android:layout_toRightOf="@id/rImg"
+            android:fontFamily="@font/lato"
+            android:text="Category"
+
+            android:textColor="@color/GrayColor"
+
+            android:textSize="15sp" />
+        <ImageView
+            android:src="@drawable/star"
+            android:id="@+id/star"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/category"
+            android:layout_toEndOf="@id/rImg"
+            android:layout_toRightOf="@id/rImg"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="22dp"
+
+            />
+        <TextView
+            android:id="@+id/rating"
+            android:fontFamily="@font/lato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/star"
+            android:layout_toRightOf="@id/star"
+            android:text="4.5"
+            android:layout_below="@id/category"
+
+            android:textColor="@color/GrayColor"
+            android:textSize="14dp"
+
+
+            />
+        <ImageView
+            android:src="@drawable/chef"
+            android:id="@+id/chefimg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/category"
+            android:layout_toEndOf="@id/star"
+            android:layout_toRightOf="@id/star"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="22dp"
+
+            />
+        <TextView
+            android:id="@+id/chef"
+            android:fontFamily="@font/lato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/chefimg"
+            android:layout_toRightOf="@id/chefimg"
+            android:text="Soufiane"
+            android:layout_below="@id/category"
+
+            android:textColor="@color/GrayColor"
+            android:textSize="14dp"
+
+
+            />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
