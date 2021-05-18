@@ -43,7 +43,7 @@ class AddRecipe : AppCompatActivity() {
       url = ""
 //      storageReference = FirebaseStorage.getInstance().getReference("images")
       database = FirebaseDatabase.getInstance()
-      reference = database.getReference("Recipes")
+      reference = database.getReference("MSDRecipes")
         option = findViewById(R.id.spinner) as Spinner
         val options = arrayOf("Vorspeise","Hauptspeise","Dessert","Kuchen","Gebäck","kekse")
         option.adapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,options)
