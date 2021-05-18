@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(applicationContext,AddRecipe::class.java))
         }
         database = FirebaseDatabase.getInstance()
-        reference = database.getReference("Recipes")
+        reference = database.getReference("MSDRecipes")
 
         getData()
 //        searchtextV.addTextChangedListener(object : TextWatcher{
